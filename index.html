@@ -1,0 +1,89 @@
+
+<html>
+<head>
+  <title>Recipe Hub</title>
+  <style>
+    /* Page background */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('cover.jpeg'); 
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    /* Top bar styling */
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: black;
+      padding: 10px 30px;
+    }
+
+    /* Logo and site name */
+    .logo-container {
+      display: flex;
+      align-items: left;
+      gap: 10px;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+    .sitename {
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    /* Navigation bar */
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: yellow;
+    }
+
+    /* Center content on the page */
+    .content {
+      text-align: center;
+      margin-top: 20%;
+      background-color: black;
+      display: inline-block;
+      padding: 30px 50px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="logo-container">
+      <img src="logo.jpg" alt="Logo" class="logo">
+      <span class="sitename">Recipe Hub</span>
+    </div>
+
+    <div class="nav-links">
+      <a href="appetizers.html">Appetizers</a>
+      <a href="desserts.html">Desserts</a>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div class="content">
+    <h1>Welcome to Recipe Hub!</h1>
+    <p>Explore our collection of delicious recipes.</p>
+  </div>
+</body>
+</html>
