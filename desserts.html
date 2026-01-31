@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dessert Recipes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fafafa;
+    }
+
+    /* Top navigation bar */
+    .navbar {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .navbar h1 {
+      font-size: 24px;
+      color: #e67e22;
+      margin: 0;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #555;
+      margin-left: 20px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #e67e22;
+    }
+
+    /* Header section */
+    .header {
+      text-align: center;
+      padding: 40px 20px;
+      background-image: url("cover5.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 18px;
+    }
+
+    /* Recipe card layout */
+    .recipes {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      padding: 40px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h2 {
+      font-size: 22px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .card-content ul {
+      margin: 0 0 10px 20px;
+      color: #555;
+    }
+
+    .card-content p {
+      color: #777;
+      font-size: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <div class="navbar">
+    <h1>Recipe Hub</h1>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="appetizers.html">Appetizers</a>
+      <a href="desserts.html">Desserts</a>
+    </div>
+  </div>
+
+  <!-- Header section -->
+  <div class="header">
+    <h1>Dessert Recipes</h1>
+    <p>End your meal with something sweet and delightful!</p>
+  </div>
+
+  <!-- Recipe cards -->
+  <div class="recipes">
+    <div class="card">
+      <img src="cake.jpg" alt="Chocolate Cake">
+      <div class="card-content">
+        <h2>Chocolate Cake</h2>
+        <ul>
+          <li>Flour</li>
+          <li>Cocoa powder</li>
+          <li>Sugar, eggs, butter</li>
+        </ul>
+        <p>Mix all ingredients, pour into a pan, and bake for 30 minutes at 180°C. Serve with melted chocolate.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="salad.jpg" alt="Fruit Salad">
+      <div class="card-content">
+        <h2>Fruit Salad</h2>
+        <ul>
+          <li>Apple</li>
+          <li>Banana</li>
+          <li>Orange, honey</li>
+        </ul>
+        <p>Chop fruits into small pieces, drizzle with honey, and chill for 15 minutes before serving.</p>
+      </div>
+    </div>
+    <div class="card">
+  <img src="pudding.jpg" alt="Pudding">
+  <div class="card-content">
+    <h2>Vanilla Pudding</h2>
+    <ul>
+      <li>Milk</li>
+      <li>Sugar</li>
+      <li>Cornstarch</li>
+      <li>Vanilla extract</li>
+      <li>Butter</li>
+    </ul>
+    <p>Heat milk and sugar, stir in cornstarch until thickened. Add butter and vanilla, then chill before serving for a creamy dessert.</p>
+  </div>
+</div>
+
+  </div>
+</body>
+</html>
